@@ -1,2 +1,2 @@
-# totallydgoe.github.io
+# totallydoge.github.io
 github page
