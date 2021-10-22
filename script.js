@@ -1,7 +1,10 @@
+var a;
+
 function vars() {
-  var names = document.getElementById('name').value
-  window.alert("Hello " + names)
-}
-function sayname() {
-  window.alert("Hello " + names)
+  //get value of input field and save as "a"
+  a = document.getElementById('name').value
+  //create LS key with value of "a"
+  localStorage.setItem('uName', a);
+  //automatically take user to page two.html
+  location.href = "two.html";
 }
