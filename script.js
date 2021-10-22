@@ -9,7 +9,7 @@ function vars() {
   location.href = "two.html";
 }
 
-function sayname() {
+function getUser() {
   var b = localStorage.getItem('uName');
   document.getElementById('placeholder').innerHTML = "Hello " + b;
 }
